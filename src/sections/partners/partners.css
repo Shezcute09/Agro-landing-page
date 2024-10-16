@@ -1,5 +1,5 @@
 .youtube_Bg {
-  background-image: url("public/assets/youtubeBG.svg");
+  background-image: url("/assets/youtubeBG.svg");
   background-size: cover;
   background-position: center;
   width: 100%;

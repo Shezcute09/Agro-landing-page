@@ -6,7 +6,7 @@ const Partners = () => {
       <div className="youtube_Bg">
         <img
           className="bg_img"
-          src="public/assets/youtubeIcon.svg"
+          src="/assets/youtubeIcon.svg"
           alt="YouTube Icon"
           loading="lazy" // Lazy loading for the background image
         />
@@ -15,11 +15,11 @@ const Partners = () => {
         </p>
       </div>
       <div className="partner__names">
-        <img src="public/assets/partner1.svg" alt="Partner 1" loading="lazy" />
-        <img src="public/assets/partner2.svg" alt="Partner 2" loading="lazy" />
-        <img src="public/assets/partner3.svg" alt="Partner 3" loading="lazy" />
-        <img src="public/assets/partner4.svg" alt="Partner 4" loading="lazy" />
-        <img src="public/assets/partner5.svg" alt="Partner 5" loading="lazy" />
+        <img src="/assets/partner1.svg" alt="Partner 1" loading="lazy" />
+        <img src="/assets/partner2.svg" alt="Partner 2" loading="lazy" />
+        <img src="/assets/partner3.svg" alt="Partner 3" loading="lazy" />
+        <img src="/assets/partner4.svg" alt="Partner 4" loading="lazy" />
+        <img src="/assets/partner5.svg" alt="Partner 5" loading="lazy" />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer_firstContent">
         <div>
-          <img src="public/assets/LogoWhite.svg" alt="" loading="lazy" />
+          <img src="/assets/LogoWhite.svg" alt="" loading="lazy" />
         </div>
         <p className="footer_firstContent_writeUp">
           Lorem ipsum dolor sit amet consectetur. Arcu id maecenas adipiscing
@@ -13,9 +13,9 @@ const Footer = () => {
           augue vivamus lorem justo scelerisque in. Malesuada{" "}
         </p>
         <div className="footer_official_handles">
-          <img src="public/assets/facebook.svg" alt="" loading="lazy" />
-          <img src="public/assets/instagram.svg" alt="" loading="lazy" />
-          <img src="public/assets/globe.svg" alt="" loading="lazy" />
+          <img src="/assets/facebook.svg" alt="" loading="lazy" />
+          <img src="/assets/instagram.svg" alt="" loading="lazy" />
+          <img src="/assets/globe.svg" alt="" loading="lazy" />
         </div>
       </div>
       <div className="footer_secondContent">
@@ -41,15 +41,15 @@ const Footer = () => {
       <div className="footer_thirdContent">
         <h3>Contact</h3>
         <div className="footer_thirdContent1">
-          <img src="public/assets/phone.svg" alt="" />
+          <img src="/assets/phone.svg" alt="" />
           <p>08053789452</p>
         </div>
         <div className="footer_thirdContent1">
-          <img src="public/assets/mail.svg" alt="" />
+          <img src="/assets/mail.svg" alt="" />
           <p>Farmsol@servicemail.com</p>
         </div>
         <div className="footer_thirdContent1">
-          <img src="public/assets/location.svg" alt="" />
+          <img src="/assets/location.svg" alt="" />
           <p>
             Plot345 Trans Amadi industrial layout, Port Harcourt Rivers State
           </p>

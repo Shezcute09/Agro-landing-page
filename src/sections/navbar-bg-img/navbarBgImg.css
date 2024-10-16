@@ -17,7 +17,7 @@
 }
 
 .navbar__bg {
-  background-image: url("public/assets/backgroundImage.jpeg");
+  background-image: url("/assets/backgroundImage.jpeg");
   background-size: cover;
   background-position: center;
   width: 100%;

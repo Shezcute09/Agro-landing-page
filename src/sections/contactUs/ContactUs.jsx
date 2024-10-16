@@ -3,7 +3,7 @@ import "./contactUs.css";
 const ContactUs = () => {
   return (
     <div className="contact_us space__horizontalC">
-      <img src="public/assets/farmer.svg" alt="" loading="lazy" />
+      <img src="/assets/farmer.svg" alt="" loading="lazy" />
       <div className="contact_us__Text">
         <p className="contact_usTextOne">Have Questions?</p>
         <p className="contact_usTextTwo">Send Us a Message</p>

@@ -9,7 +9,7 @@ const Services = () => {
       </p>
       <div className="services__imgs space__horizontalx">
         <div>
-          <img className="service__img" src="public/assets/drone.svg" alt="" />
+          <img className="service__img" src="/assets/drone.svg" alt="" />
           <p className="service__title">Precision Agriculture</p>
           <p className="servic__content">
             Lorem ipsum dolor sit amet consectetur. Arcu id maecenas adipiscing
@@ -21,7 +21,7 @@ const Services = () => {
         <div>
           <img
             className="service__img"
-            src="public/assets/carrotsAndTomatoes.svg"
+            src="/assets/carrotsAndTomatoes.svg"
             alt=""
           />
           <p className="service__title">Organic Farming Input</p>
@@ -33,11 +33,7 @@ const Services = () => {
           <button className="service__btn">Read More</button>
         </div>
         <div>
-          <img
-            className="service__img"
-            src="public/assets/sprinkler.svg"
-            alt=""
-          />
+          <img className="service__img" src="/assets/sprinkler.svg" alt="" />
           <p className="service__title">Smart Irrigation Systems</p>
           <p className="servic__content">
             Lorem ipsum dolor sit amet consectetur. Arcu id maecenas adipiscing
@@ -47,11 +43,7 @@ const Services = () => {
           <button className="service__btn">Read More</button>
         </div>
         <div className="serviceImgException">
-          <img
-            className="service__img "
-            src="public/assets/youngLad.svg"
-            alt=""
-          />
+          <img className="service__img " src="/assets/youngLad.svg" alt="" />
           <p className="service__title">Smart Irrigation Systems</p>
           <p className="servic__content">
             Lorem ipsum dolor sit amet consectetur. Arcu id maecenas adipiscing

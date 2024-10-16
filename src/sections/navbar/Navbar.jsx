@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <>
       <div className="nav__bar space__horizontal">
-        <img src="public/assets/Logo.svg" alt="Logo" loading="lazy" />
+        <img src="/assets/Logo.svg" alt="Logo" loading="lazy" />
 
         <ul className="space__horizontal">
           <NavLink className="nav__link" to="/">
@@ -34,7 +34,7 @@ const Navbar = () => {
         </NavLink>
         <button className="hamburger" onClick={toggleMenu}>
           <img
-            src="public/assets/hamburger.svg"
+            src="/assets/hamburger.svg"
             alt="Hamburger Menu"
             loading="lazy"
           />
