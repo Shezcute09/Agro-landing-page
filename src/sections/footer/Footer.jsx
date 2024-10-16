@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer_firstContent">
         <div>
-          <img src="/public/assets/LogoWhite.svg" alt="" loading="lazy" />
+          <img src="public/assets/LogoWhite.svg" alt="" loading="lazy" />
         </div>
         <p className="footer_firstContent_writeUp">
           Lorem ipsum dolor sit amet consectetur. Arcu id maecenas adipiscing
