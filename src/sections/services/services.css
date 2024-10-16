@@ -1,0 +1,127 @@
+.services__header {
+  font-family: Georgia;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 52.27px;
+  text-align: center;
+  color: #020502;
+}
+
+.services__subheader {
+  font-family: Georgia;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 31.81px;
+  text-align: center;
+  color: #43a047;
+  margin: 16px 0 60px 0;
+}
+
+.service__title {
+  margin: 26px 0 14px 0;
+}
+
+.service__btn {
+  margin: 22px 0 10px 0;
+}
+
+.space__horizontalx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 69px;
+}
+
+.services__imgs div {
+  width: 345px;
+}
+
+.service__img {
+  border-radius: 15px 15px 0 0;
+}
+
+.service__title {
+  font-family: Georgia;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27.27px;
+  text-align: left;
+  color: #43a047;
+}
+
+.service__content {
+  font-family: Georgia;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.72px;
+  text-align: left;
+  color: #585c58;
+  width: 325px;
+  height: 179px;
+  gap: 14px;
+}
+
+div .service__btn {
+  padding: 10px 15px 10px 15px;
+  border-radius: 18px;
+  background-color: #163518;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.45px;
+  color: #ffffff;
+  width: 100%;
+  border-style: none;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .space__horizontalx {
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+  }
+
+  .service__title,
+  .service__content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .services {
+    padding: 5vw 3vw;
+  }
+
+  .services__header {
+    font-size: 1.75rem;
+    line-height: 1.9rem;
+  }
+
+  .services__subheader {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .service__title {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .service__content {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  .service__btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.7rem;
+  }
+
+  .service__img {
+    max-width: 100%;
+    height: auto;
+  }
+}

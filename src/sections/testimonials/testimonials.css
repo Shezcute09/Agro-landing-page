@@ -1,0 +1,138 @@
+.testimonial {
+  background-color: #38853b;
+  padding: 4vw 6vw 6vh;
+  margin-top: 5vh;
+}
+
+.testimonial h3 {
+  font-family: Georgia;
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-align: center;
+  color: #fefefe;
+}
+
+.testimonial__container {
+  background-color: #38853b;
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.testimonial__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  border: 0.7vw solid;
+  padding: 2.5vw 3vw;
+  margin: 4vh 0 6vh;
+
+  background: linear-gradient(
+    142.13deg,
+    rgba(254, 248, 255, 0.21) 1.8%,
+    rgba(254, 248, 255, 0) 99.75%
+  );
+  border-image-source: radial-gradient(
+    circle at 17% 2%,
+    rgba(255, 255, 255, 0.22),
+    rgba(15, 17, 19, 0.1)
+  );
+  backdrop-filter: blur(7vw);
+}
+
+.testifier {
+  margin-top: 1vw;
+}
+
+.testimonial__contentFirstImg {
+  display: flex;
+  align-self: self-start;
+}
+
+.testimonial__contentOne {
+  font-family: Georgia;
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #fefefe;
+}
+
+.testimonial__contentTwo {
+  color: #fefefe;
+  font-family: Georgia;
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin: 0.3vw 0 0.5vw;
+}
+
+.testimonial__contentThree {
+  color: #fefefe;
+  font-family: Georgia;
+  font-size: 0.8vw;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .testimonial {
+    padding: 40px 20px;
+  }
+
+  .testimonial__content {
+    border-radius: 18.92px;
+    border: 7.66px;
+  }
+
+  .testimonial h3 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .testimonial__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .testimonial__content {
+    margin: 30px 0;
+    padding: 20px 15px;
+  }
+
+  .testimonial__contentOne,
+  .testimonial__contentTwo,
+  .testimonial__contentThree {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .testimonial {
+    padding: 20px 10px;
+  }
+
+  .testimonial__content {
+    padding: 15px 10px;
+    margin: 20px 0;
+  }
+
+  .testimonial h3 {
+    font-size: 24px;
+  }
+
+  .testimonial__contentOne,
+  .testimonial__contentTwo,
+  .testimonial__contentThree {
+    font-size: 12px;
+  }
+}
