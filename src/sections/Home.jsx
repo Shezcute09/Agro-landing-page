@@ -1,5 +1,6 @@
 import About from "./about/About";
 import ContactUs from "./contactUs/ContactUs";
+import Footer from "./footer/Footer";
 import NavbarBgImg from "./navbar-bg-img/NavbarBgImg";
 import Navbar from "./navbar/Navbar";
 import Partners from "./partners/Partners";
@@ -16,6 +17,7 @@ const Home = () => {
       <Testimonials />
       <ContactUs />
       <Partners />
+      <Footer />
     </div>
   );
 };
