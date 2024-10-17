@@ -25,9 +25,13 @@ const About = () => {
 
           <button className="learn">Learn More</button>
         </div>
-        <div className="tractor__tomatoesImg">
-          <img src="/assets/Frame 33843.jpg" alt="" loading="lazy" />
-        </div>
+
+        <img
+          src="/public/assets/tractorAndCarrots.svg"
+          alt=""
+          loading="lazy"
+          className="tractor_carrots_img"
+        />
       </div>
     </div>
   );

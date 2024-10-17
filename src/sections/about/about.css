@@ -49,6 +49,14 @@
   border-style: none;
 }
 
+.tractor_carrots_img {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Media queries for responsiveness */
 @media (max-width: 1104px) {
   .about__child {
@@ -66,6 +74,9 @@
     justify-content: space-evenly;
     align-items: center;
   }
+  .tractor_carrots_img {
+    margin: 0 19px;
+  }
 }
 
 @media (max-width: 300px) {
@@ -79,6 +90,9 @@
     line-height: 32px;
   }
 
+  .tractor_carrots_img {
+    margin: 0 19vw;
+  }
   .commitment {
     font-size: 18px;
     line-height: 22px;
