@@ -27,7 +27,7 @@ const About = () => {
         </div>
 
         <img
-          src="/public/assets/tractorAndCarrots.svg"
+          src="/assets/tractorAndCarrots.svg"
           alt=""
           loading="lazy"
           className="tractor_carrots_img"

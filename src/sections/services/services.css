@@ -7,6 +7,14 @@
   color: #020502;
 }
 
+.service__img {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .services__subheader {
   font-family: Georgia;
   font-size: 28px;
@@ -22,7 +30,10 @@
 }
 
 .service__btn {
-  margin: 22px 0 10px 0;
+  margin: 22px 5% 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .space__horizontalx {
@@ -114,10 +125,5 @@ div .service__btn {
   .service__btn {
     font-size: 0.9rem;
     padding: 0.5rem 0.7rem;
-  }
-
-  .service__img {
-    max-width: 100%;
-    height: auto;
   }
 }

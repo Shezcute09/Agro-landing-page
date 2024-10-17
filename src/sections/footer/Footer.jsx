@@ -19,25 +19,25 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer_secondContent">
-        <div className="footer_secondContent1">
-          <h3>Explore</h3>
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Our Projects</li>
-            <li>Latest News</li>
-          </ul>
-        </div>
-        <div className="footer_secondContent1">
-          <h3>Others</h3>
-          <ul>
-            <li>Testimonial</li>
-            <li>Benefit</li>
-            <li>Meet the farmers</li>
-          </ul>
-        </div>
+        <h3>Explore</h3>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Services</li>
+          <li>Our Projects</li>
+          <li>Latest News</li>
+        </ul>
       </div>
+
+      <div className="footer_secondContent">
+        <h3>Others</h3>
+        <ul>
+          <li>Testimonial</li>
+          <li>Benefit</li>
+          <li>Meet the farmers</li>
+        </ul>
+      </div>
+
       <div className="footer_thirdContent">
         <h3>Contact</h3>
         <div className="footer_thirdContent1">
