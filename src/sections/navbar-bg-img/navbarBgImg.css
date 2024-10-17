@@ -8,12 +8,6 @@
   background-color: #163518;
   color: white;
   border-style: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.btn__img:hover {
-  background-color: #0d2411;
 }
 
 .navbar__bg {
@@ -81,7 +75,7 @@
     max-width: 90%;
   }
 
-  .btn {
+  .btn__img {
     padding: 12px 30px;
   }
 }
@@ -102,7 +96,7 @@
     margin: 1rem 0 2rem;
   }
 
-  .btn {
+  .btn__img {
     padding: 10px 25px;
     font-size: 0.9rem;
   }
@@ -124,7 +118,7 @@
     line-height: 1.2rem;
   }
 
-  .btn {
+  .btn__img {
     padding: 8px 20px;
     font-size: 0.8rem;
   }
