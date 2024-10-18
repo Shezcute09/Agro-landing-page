@@ -19,24 +19,26 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="footer_secondContent">
-        <h3>Explore</h3>
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Our Projects</li>
-          <li>Latest News</li>
-        </ul>
-      </div>
+      <div className="footerSecondContentParent">
+        <div className="footer_secondContent">
+          <h3>Explore</h3>
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Our Projects</li>
+            <li>Latest News</li>
+          </ul>
+        </div>
 
-      <div className="footer_secondContent">
-        <h3>Others</h3>
-        <ul>
-          <li>Testimonial</li>
-          <li>Benefit</li>
-          <li>Meet the farmers</li>
-        </ul>
+        <div className="footer_secondContent">
+          <h3>Others</h3>
+          <ul>
+            <li>Testimonial</li>
+            <li>Benefit</li>
+            <li>Meet the farmers</li>
+          </ul>
+        </div>
       </div>
 
       <div className="footer_thirdContent">
