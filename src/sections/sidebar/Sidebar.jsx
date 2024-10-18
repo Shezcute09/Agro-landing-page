@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="space__vertical">
-        <ul className="space__vertical">
+        <ul className="space__vertical addulbottom">
           <NavLink className="nav__link" to="/">
             <li className="bigger_textSide">Home</li>
           </NavLink>
@@ -19,7 +19,7 @@ const Sidebar = () => {
             <li className="list__sidebar">Contact Us</li>
           </NavLink>
         </ul>
-        <NavLink to="/get-started">
+        <NavLink className="nav__link" to="/">
           <button className="btn__sidebar">Get Started</button>
         </NavLink>
       </div>

@@ -18,6 +18,7 @@ const Footer = () => {
           <img src="/assets/globe.svg" alt="" loading="lazy" />
         </div>
       </div>
+
       <div className="footer_secondContent">
         <h3>Explore</h3>
         <ul>
